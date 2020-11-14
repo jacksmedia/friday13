@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `StardewDex`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `J4cks`,
+      summary: `Linking all the items, people, events of Pelican Town into a 'Dex. Works better than a wiki, especially on mobile!`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Begin again! Stardew Valley rewards replay.`,
+    siteUrl: `https://stardewdex.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `stardewdex`,
     },
   },
   plugins: [
@@ -60,11 +60,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `StardewDex`,
+        short_name: `StardewDex`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#aaffbb`,
+        theme_color: `#aaffbb`,//possibly entirely too loud but a nice branding attempt for now
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
