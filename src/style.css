@@ -82,8 +82,20 @@ body {
   font-size: var(--fontSize-1);
   color: var(--color-text);
   background: 100vh;
-  background: linear-gradient(#abf, #fdd, #afe);
-  /*height: 100%;*/
+  background: linear-gradient(
+    #48B6D7,
+    #C8DBDA,
+    #EFEFEF,
+    #fff,
+    #3BC694,
+    #00537A
+    );
+}
+
+.oaktag {
+  padding: 0.85em;
+  background-color: #FFFCCE;
+  border: 2px groove #F7793B;
 }
 
 footer {
