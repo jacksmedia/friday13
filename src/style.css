@@ -82,7 +82,8 @@ body {
   font-size: var(--fontSize-1);
   color: var(--color-text);
   background: 100vh;
-  background-color: #abf
+  background: linear-gradient(#abf, #fdd, #afe);
+  /*height: 100%;*/
 }
 
 footer {
