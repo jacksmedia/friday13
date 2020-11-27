@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Frozen_Geode.png
 title: Frozen Geode
-description: Mineral~Geodes
+description: Mineral|Geodes
 testfield: 1072
 ---

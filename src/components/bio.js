@@ -40,7 +40,7 @@ const Bio = () => {
   const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
-    <div className="bio">
+    <div className="bio oaktag">
       {avatar && (
         <Image
           fixed={avatar}

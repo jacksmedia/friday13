@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Angler.png
 title: Angler
-description: Fish~Legendary
+description: Fish|Legendary
 testfield: 320
 ---

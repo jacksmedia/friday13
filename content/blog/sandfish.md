@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Sandfish.png
 title: Sandfish
-description: Fish~Pole
+description: Fish|Pole
 testfield: 328
 ---
