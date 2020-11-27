@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Dwarvish_Translation_Guide.png
 title: Dwarvish Translation Guide
-description: Special Items
+description: Special
 testfield: 652
 ---

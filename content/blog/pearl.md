@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Pearl.png
 title: Pearl
-description: Special Items
+description: Special
 testfield: 1594
 ---

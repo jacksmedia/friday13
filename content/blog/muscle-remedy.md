@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Muscle_Remedy.png
 title: Muscle Remedy
-description: Special Items
+description: Special
 testfield: 702
 ---

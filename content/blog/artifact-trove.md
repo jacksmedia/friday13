@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Artifact_Trove.png
 title: Artifact Trove
-description: Special Items
+description: Special
 testfield: 550
 ---

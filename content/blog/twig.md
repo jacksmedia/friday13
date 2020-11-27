@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Twig.png
 title: Twig
-description: Special Items
+description: Special
 testfield: 588
 ---

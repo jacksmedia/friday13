@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Jack-O-Lantern.png
 title: Jack-O-Lantern
-description: Special Items
+description: Special
 testfield: 1492
 ---

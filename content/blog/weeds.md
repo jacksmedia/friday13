@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Weeds.png
 title: Weeds
-description: Special Items
+description: Special
 testfield: 0
 ---

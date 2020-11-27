@@ -3,6 +3,6 @@ templateKey: blog-post
 featuredpost: false
 featuredimage: /assets/Rain_Totem.png
 title: Rain Totem
-description: Special Items
+description: Special
 testfield: 1362
 ---
