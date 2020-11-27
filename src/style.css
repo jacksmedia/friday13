@@ -54,7 +54,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: firebrick;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -83,6 +83,7 @@ body {
   color: var(--color-text);
   background: 100vh;
   background: linear-gradient(
+    #024381,
     #48B6D7,
     #C8DBDA,
     #EFEFEF,
@@ -248,9 +249,11 @@ a {
   color: var(--color-primary);
 }
 
+
 a:hover,
 a:focus {
   text-decoration: none;
+  /* place to insert shining animation */
 }
 
 /* Custom classes */
@@ -299,6 +302,34 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
+  /* some superb excess below */
+  /*
+  color:  navy;
+  text-shadow: 0px 0px 0 chocolate,
+   -1px 1px 0 gold,
+    -2px 2px 0 gold,
+     -3px 3px 0 gold,
+      -4px 4px 0 gold,
+       -5px 5px 0 gold,
+        -6px 6px 0 gold,
+         -7px 7px 0 gold,
+          -8px 8px 0 gold,
+           -9px 9px 0 gold,
+            -10px 10px 0 gold,
+             -11px 11px 0 gold,
+              -12px 12px 0 gold,
+               -13px 13px 0 gold,
+                -14px 14px 0 gold,
+                 -15px 15px 0 gold,
+                  -16px 16px 0 gold,
+                   -17px 17px 0 gold,
+                    -18px 18px 0 gold,
+                     -19px 19px 0 gold,
+                      -20px 20px 0 gold,
+                       -21px 21px 20px gold,
+                        -21px 21px 1px gold,
+                         0px 0px 20px chocolate;
+*/
 }
 
 .bio {
@@ -315,6 +346,11 @@ a:focus {
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
+}
+
+/* added to ensure body gradient fills large screens even with low-content posts */
+.blog-post {
+  min-height: 100vh;
 }
 
 .blog-post header h1 {

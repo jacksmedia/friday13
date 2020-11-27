@@ -32,7 +32,7 @@ const BlogIndex = ({ data, location }) => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug} class="oaktag">
+            <li key={post.fields.slug} className="oaktag">
               <article
                 className="post-list-item"
                 itemScope
@@ -44,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>{post.frontmatter.testfield}</small>
                 </header>
                 <section>
                   <p
@@ -79,8 +79,8 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           title
+          testfield
           description
         }
       }

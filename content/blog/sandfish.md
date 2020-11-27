@@ -1,0 +1,8 @@
+---
+templateKey: blog-post
+featuredpost: false
+featuredimage: /assets/Sandfish.png
+title: Sandfish
+description: Fish~Pole
+testfield: 328
+---
