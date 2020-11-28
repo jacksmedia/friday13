@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Bean_Starter.png
+featuredimage: ../assets/Bean_Starter.png
 title: Bean Starter
 description: Seed
 testfield: 946
 ---
+![Bean Starter](../assets/Bean_Starter.png)

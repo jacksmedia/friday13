@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Aquamarine_Ring.png
+featuredimage: ../assets/Aquamarine_Ring.png
 title: Aquamarine Ring
 description: Rings
 testfield: 1062
 ---
+![Aquamarine Ring](../assets/Aquamarine_Ring.png)

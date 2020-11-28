@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Green_Tea.png
+featuredimage: ../assets/Green_Tea.png
 title: Green Tea
 description: Artisan Goods
 testfield: 1228
 ---
+![Green Tea](../assets/Green_Tea.png)

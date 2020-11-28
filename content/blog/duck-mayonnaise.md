@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Duck_Mayonnaise.png
+featuredimage: ../assets/Duck_Mayonnaise.png
 title: Duck Mayonnaise
 description: Artisan Goods
 testfield: 614
 ---
+![Duck Mayonnaise](../assets/Duck_Mayonnaise.png)

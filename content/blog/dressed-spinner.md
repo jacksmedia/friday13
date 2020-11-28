@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Dressed_Spinner.png
+featuredimage: ../assets/Dressed_Spinner.png
 title: Dressed Spinner
 description: Fishing Tackle
 testfield: 1374
 ---
+![Dressed Spinner](../assets/Dressed_Spinner.png)

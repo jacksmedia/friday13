@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Omni_Geode.png
+featuredimage: ../assets/Omni_Geode.png
 title: Omni Geode
 description: Mineral|Geodes
 testfield: 1498
 ---
+![Omni Geode](../assets/Omni_Geode.png)

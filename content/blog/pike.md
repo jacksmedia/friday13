@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Pike.png
+featuredimage: ../assets/Pike.png
 title: Pike
 description: Fish|Pole
 testfield: 288
 ---
+![Pike](../assets/Pike.png)

@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Rare_Seed.png
+featuredimage: ../assets/Rare_Seed.png
 title: Rare Seed
 description: Seed
 testfield: 694
 ---
+![Rare Seed](../assets/Rare_Seed.png)

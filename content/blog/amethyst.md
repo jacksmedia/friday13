@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Amethyst.png
+featuredimage: ../assets/Amethyst.png
 title: Amethyst
 description: Mineral
 testfield: 132
 ---
+![Amethyst](../assets/Amethyst.png)

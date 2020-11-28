@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Jamborite.png
+featuredimage: ../assets/Jamborite.png
 title: Jamborite
 description: Mineral
 testfield: 1096
 ---
+![Jamborite](../assets/Jamborite.png)

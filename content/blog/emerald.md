@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Emerald.png
+featuredimage: ../assets/Emerald.png
 title: Emerald
 description: Mineral
 testfield: 120
 ---
+![Emerald](../assets/Emerald.png)

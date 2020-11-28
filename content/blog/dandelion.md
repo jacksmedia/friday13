@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Dandelion.png
+featuredimage: ../assets/Dandelion.png
 title: Dandelion
 description: Forage
 testfield: 44
 ---
+![Dandelion](../assets/Dandelion.png)

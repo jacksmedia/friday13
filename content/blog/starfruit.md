@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Starfruit.png
+featuredimage: ../assets/Starfruit.png
 title: Starfruit
 description: Fruit
 testfield: 536
 ---
+![Starfruit](../assets/Starfruit.png)

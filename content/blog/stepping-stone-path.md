@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Stepping_Stone_Path.png
+featuredimage: ../assets/Stepping_Stone_Path.png
 title: Stepping Stone Path
 description: Decor
 testfield: 830
 ---
+![Stepping Stone Path](../assets/Stepping_Stone_Path.png)

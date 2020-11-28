@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Topaz.png
+featuredimage: ../assets/Topaz.png
 title: Topaz
 description: Mineral
 testfield: 136
 ---
+![Topaz](../assets/Topaz.png)

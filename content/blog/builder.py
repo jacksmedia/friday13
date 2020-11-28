@@ -26,7 +26,10 @@ with open('dexdata.csv', 'rb') as csvfile:
         md_file_name = title.lower().replace(' ','-') # b/c filesystem
         
         # creating img asset path
-        featuredimage = '/assets/{}.png'.format(img_file_name)
+        featuredimage = '../assets/{}.png'.format(img_file_name) # relative image location
+        embedded_image_left = '![{}]'.format(title)
+        embedded_image_right = '({})'.format(featuredimage)
+        embedded_image = embedded_image_left + embedded_image_right # assemble markdown-format image tag
         
         # create .md to write row data into
         f = open('{}.md'.format(md_file_name), 'w')
@@ -38,5 +41,6 @@ with open('dexdata.csv', 'rb') as csvfile:
         f.write('title: {}\n'.format(title))
         f.write('description: {}\n'.format(description))
         f.write('testfield: {}\n'.format(count))
-        f.write('---') # formatting req
+        f.write('---\n') # formatting req
+        f.write('{}'.format(embedded_image)) # places image in HTML 
         f.close() # python saves file on close()

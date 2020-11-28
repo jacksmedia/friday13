@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Duck_Feather.png
+featuredimage: ../assets/Duck_Feather.png
 title: Duck Feather
 description: Animal Products
 testfield: 888
 ---
+![Duck Feather](../assets/Duck_Feather.png)

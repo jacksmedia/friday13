@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Ancient_Seeds.png
+featuredimage: ../assets/Ancient_Seeds.png
 title: Ancient Seeds
 description: Seed
 testfield: 998
 ---
+![Ancient Seeds](../assets/Ancient_Seeds.png)

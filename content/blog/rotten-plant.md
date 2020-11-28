@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Rotten_Plant.png
+featuredimage: ../assets/Rotten_Plant.png
 title: Rotten Plant
 description: Trash
 testfield: 1494
 ---
+![Rotten Plant](../assets/Rotten_Plant.png)

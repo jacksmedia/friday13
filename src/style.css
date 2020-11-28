@@ -85,9 +85,9 @@ body {
   background: linear-gradient(
     #024381,
     #48B6D7,
-    #C8DBDA,
     #EFEFEF,
     #fff,
+    #89FDE4,
     #3BC694,
     #00537A
     );
@@ -349,6 +349,11 @@ a:focus {
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
+}
+
+.pixelart48 {
+  height: 48px;
+  width: 48px;
 }
 
 /* added to ensure body gradient fills large screens even with low-content posts */

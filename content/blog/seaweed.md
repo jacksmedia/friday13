@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Seaweed.png
+featuredimage: ../assets/Seaweed.png
 title: Seaweed
 description: Forage
 testfield: 304
 ---
+![Seaweed](../assets/Seaweed.png)

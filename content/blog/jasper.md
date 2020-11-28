@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Jasper.png
+featuredimage: ../assets/Jasper.png
 title: Jasper
 description: Mineral
 testfield: 1126
 ---
+![Jasper](../assets/Jasper.png)

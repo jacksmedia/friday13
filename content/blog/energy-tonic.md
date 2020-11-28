@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Energy_Tonic.png
+featuredimage: ../assets/Energy_Tonic.png
 title: Energy Tonic
 description: Special
 testfield: 698
 ---
+![Energy Tonic](../assets/Energy_Tonic.png)

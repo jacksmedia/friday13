@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Strange_Doll_(Green).png
+featuredimage: ../assets/Strange_Doll_(Green).png
 title: Strange Doll (Green)
 description: Artifacts
 testfield: 252
 ---
+![Strange Doll (Green)](../assets/Strange_Doll_(Green).png)

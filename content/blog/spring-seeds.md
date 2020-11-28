@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Spring_Seeds.png
+featuredimage: ../assets/Spring_Seeds.png
 title: Spring Seeds
 description: Seed
 testfield: 990
 ---
+![Spring Seeds](../assets/Spring_Seeds.png)

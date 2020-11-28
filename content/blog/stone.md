@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Stone.png
+featuredimage: ../assets/Stone.png
 title: Stone
 description: Resources
 testfield: 4
 ---
+![Stone](../assets/Stone.png)

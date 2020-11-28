@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Herring.png
+featuredimage: ../assets/Herring.png
 title: Herring
 description: Fish|Pole
 testfield: 294
 ---
+![Herring](../assets/Herring.png)

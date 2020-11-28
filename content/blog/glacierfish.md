@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Glacierfish.png
+featuredimage: ../assets/Glacierfish.png
 title: Glacierfish
 description: Fish|Legendary
 testfield: 1550
 ---
+![Glacierfish](../assets/Glacierfish.png)

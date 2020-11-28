@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Crab.png
+featuredimage: ../assets/Crab.png
 title: Crab
 description: Fish|Crabpot
 testfield: 1434
 ---
+![Crab](../assets/Crab.png)

@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 featuredpost: false
-featuredimage: /assets/Ruby.png
+featuredimage: ../assets/Ruby.png
 title: Ruby
 description: Mineral
 testfield: 128
 ---
+![Ruby](../assets/Ruby.png)
