@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Image48 from "../components/image48"
 import Image from "gatsby-image"
 
 const BlogPostTemplate = ({ data, location }) => {
@@ -22,14 +23,13 @@ const BlogPostTemplate = ({ data, location }) => {
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <header className="oaktag">
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-        </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
-          className="pixelart48"
         />
+        </header>
         <hr />
         <footer>
           <Bio />

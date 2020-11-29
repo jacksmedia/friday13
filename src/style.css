@@ -77,11 +77,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* custom color scheming */
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
-  background: 100vh;
   background: linear-gradient(
     #024381,
     #48B6D7,
@@ -95,7 +95,7 @@ body {
 
 .oaktag {
   padding: 0.85em;
-  background-color: #FFFCCE;
+  background: radial-gradient(#fff, #FFFCCE) ;
   border: 2px groove #F7793B;
 }
 
@@ -249,11 +249,18 @@ a {
   color: var(--color-primary);
 }
 
+@keyframes LinkShineAnimation {
+  0% { color: firebrick; }
+  10% { color: red; }
+  50% { color: tomato; }
+  90% { color: red; }
+  100% { color: firebrick; }
+}
 
 a:hover,
 a:focus {
   text-decoration: none;
-  /* place to insert shining animation */
+  animation: LinkShineAnimation 5s ease;
 }
 
 /* Custom classes */
@@ -349,11 +356,6 @@ a:focus {
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
-}
-
-.pixelart48 {
-  height: 48px;
-  width: 48px;
 }
 
 /* added to ensure body gradient fills large screens even with low-content posts */
