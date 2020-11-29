@@ -53,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `254369780`,
       },
     },
     `gatsby-plugin-feed`,
@@ -63,8 +63,8 @@ module.exports = {
         name: `StardewDex`,
         short_name: `StardewDex`,
         start_url: `/`,
-        background_color: `#aaffbb`,
-        theme_color: `#aaffbb`,//possibly entirely too loud but a nice branding attempt for now
+        background_color: `#89FDE4`,
+        theme_color: `#89FDE4`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
