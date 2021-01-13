@@ -90,7 +90,11 @@ body {
     #89FDE4,
     #3BC694,
     #00537A
-    );
+  );
+}
+
+.acorn {
+  content:url(http://placehold.it/350x150);
 }
 
 .oaktag {
@@ -111,12 +115,7 @@ hr {
 
 /* Heading */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
@@ -124,11 +123,7 @@ h6 {
   letter-spacing: -0.025em;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2, h3, h4, h5, h6 {
   font-weight: var(--fontWeight-bold);
   color: var(--color-heading);
 }
@@ -197,6 +192,7 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: calc(var(--spacing-8) / 2);
+  list-style: none;
 }
 
 li > p {
@@ -249,20 +245,6 @@ a {
   color: var(--color-primary);
 }
 
-@keyframes LinkShineAnimation {
-  0% { color: firebrick; }
-  10% { color: red; }
-  50% { color: tomato; }
-  90% { color: red; }
-  100% { color: firebrick; }
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
-  animation: LinkShineAnimation 5s ease;
-}
-
 /* Custom classes */
 
 .global-wrapper {
@@ -312,34 +294,6 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
-  /* some superb excess below */
-  /*
-  color:  navy;
-  text-shadow: 0px 0px 0 chocolate,
-   -1px 1px 0 gold,
-    -2px 2px 0 gold,
-     -3px 3px 0 gold,
-      -4px 4px 0 gold,
-       -5px 5px 0 gold,
-        -6px 6px 0 gold,
-         -7px 7px 0 gold,
-          -8px 8px 0 gold,
-           -9px 9px 0 gold,
-            -10px 10px 0 gold,
-             -11px 11px 0 gold,
-              -12px 12px 0 gold,
-               -13px 13px 0 gold,
-                -14px 14px 0 gold,
-                 -15px 15px 0 gold,
-                  -16px 16px 0 gold,
-                   -17px 17px 0 gold,
-                    -18px 18px 0 gold,
-                     -19px 19px 0 gold,
-                      -20px 20px 0 gold,
-                       -21px 21px 20px gold,
-                        -21px 21px 1px gold,
-                         0px 0px 20px chocolate;
-*/
 }
 
 .bio {

@@ -24,32 +24,10 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} className="titlegrade">
       <SEO title="All posts" />
       <Bio />
-      <table>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-
-          return (
-            <tr key={post.fields.slug} className="oaktag">
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <Link to={post.fields.slug} itemProp="url">
-                  <span itemProp="headline">{title}</span>
-                </Link>
-                <small>{post.fields.slug}</small>
-                <span itemProp="description">
-                  {post.frontmatter.description || post.excerpt}
-                </span>
-              </article>
-            </tr>
-          )
-        })}
-      </table>
+      
     </Layout>
   )
 }
